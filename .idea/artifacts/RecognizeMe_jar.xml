@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RecognizeMe:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RecognizeMe_jar</output-path>
+    <root id="archive" name="RecognizeMe.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="RecognizeMe" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../SDK/opencv-linux/opencv-460.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
