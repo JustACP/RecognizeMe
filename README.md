@@ -3,6 +3,9 @@
 A Face Detector and Recognizer API
 一个基于Java的人脸检测和人脸识别API
 
+第一次写这种库，各方面都还很有缺。
+还是忍不住吐槽`OpenCV`对`Java`的支持。
+
 ## 结构
 1. 识别核心位于 `com.FaceCore.FaceCore`
    * 多数功能位于 `FaceCore`
