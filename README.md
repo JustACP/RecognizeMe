@@ -35,3 +35,10 @@ A Face Detector and Recognizer API
        1. 与已注册人物比对，返回真假
     6. faceRecognizerSimilarityRatioByPerson(String srcImage, Person person)；
        1. 与已注册人物比对，返回相似度
+
+## Linux 下环境测试：
+`.so`文件编译于WSL
+WSL 下测试正常：
+![WSL测试图片](http://oss.re1ife.top//media/WSL测试图片.png)
+
+**若需要在Linux下运行，我强烈建议您在目标运行环境下重新构建OpenCV4.6的so文件。**然后将`resoucecs`文件夹中的so文件替换。
