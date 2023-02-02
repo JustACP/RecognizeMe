@@ -1,7 +1,7 @@
 # RecognizeMe
 
-A Face Detector and Recognizer API
-一个基于Java的人脸检测和人脸识别API
+A Face Detector and Recognizer SDK
+一个基于Java的人脸检测和人脸识别SDK
 
 第一次写这种库，各方面都还很有缺陷，写的不是很好。
 还是忍不住吐槽 `OpenCV`对 `Java`的支持。
